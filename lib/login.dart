@@ -116,7 +116,7 @@ class LogInState extends State<LogIn> {
                         obscureText: true,
                         textAlign: TextAlign.center,
                         onChanged: (value) {
-                          user = value;
+                          pass = value;
                         },
                         decoration: kTextFieldDecoration.copyWith(
                             hintText: 'Enter your password',
